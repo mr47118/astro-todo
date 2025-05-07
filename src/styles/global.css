@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+  --color-dark-blue-800: hsl(235, 24%, 19%);
+  --color-dark-blue-900: hsl(235, 21%, 11%);
+}
+
+body {
+  @apply bg-dark-blue-800 text-gray-300;
+}
+
+@custom-variant hover (&:hover);
